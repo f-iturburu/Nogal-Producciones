@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+nav {
+  min-height: 11vh;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+main {
+  padding-top: 11vh;
+}
+
+
+.sobreMi{
+  font-family: "Roboto", sans-serif;
+}
+
+.bannerImg {
+  height: 20vh;
+}
+
+.logo {
+  max-height: 11vh;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+}
+
+.sobreMi {
+  background-color: #264653;
+}
+
+.casamientos {
+  background-color: #2a9d8f;
+}
+
+.eventos {
+  background-color: #e9c46a;
+}
+
+.cumpleaños {
+  background-color: #f4a261;
+}
+
+.fotoproducto {
+  background-color: #e76f51;
+}
+
+.fa-brands {
+  color: white;
+}
+.fa-envelope {
+  color: white;
+}
+
+.fa-instagram:hover {
+  transform: scale(1.2);
+
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-whatsapp:hover {
+  transform: scale(1.2);
+  color: #25d366;
+}
+
+.fa-envelope:hover {
+  transform: scale(1.2);
+  color: rgb(0, 102, 255);
+}
+
+.wdng:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 25px -1px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 10px 10px 25px -1px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 10px 10px 25px -1px rgba(0, 0, 0, 0.41);
+}
+
+@media all and (min-width: 0px) {
+  .imgSlider {
+    height: 90vh;
+    
+    object-fit: cover;
+  }
+}
+
+
