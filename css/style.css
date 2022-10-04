@@ -29,6 +29,20 @@ main {
   padding-top: 11vh;
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: 6vh;
+  visibility: hidden;
+}
+
+.anchorSobreMi {
+  display: block;
+  position: relative;
+  top: -17.5vh;
+  visibility: hidden;
+}
+
 
 .sobreMi{
   font-family: "Roboto", sans-serif;
